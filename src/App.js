@@ -7,7 +7,7 @@ export default function DeleteLocalData() {
   const [localData, setLocalData] = useState(null);
   const [downloadLoading, setDownloadLoading] = useState(false);
 
-  const API_BASE_URL = 'http://192.168.6.86:8001';
+  const API_BASE_URL = 'https://192.168.6.86:8001';
 
   const handleDelete = async () => {
     setLoading(true);
